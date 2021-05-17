@@ -973,7 +973,6 @@ GameObject:
   - component: {fileID: 1223090544}
   - component: {fileID: 1223090543}
   - component: {fileID: 1223090542}
-  - component: {fileID: 1223090545}
   m_Layer: 0
   m_Name: PointA
   m_TagString: Untagged
@@ -1055,19 +1054,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1223090540}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1223090545
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1223090540}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97f9ed2ee92346e0ab5eaf6932e61a59, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextPoint: {x: 0, y: 0, z: 0}
 --- !u!1 &1396672418
 GameObject:
   m_ObjectHideFlags: 0
@@ -1080,7 +1066,6 @@ GameObject:
   - component: {fileID: 1396672422}
   - component: {fileID: 1396672421}
   - component: {fileID: 1396672420}
-  - component: {fileID: 1396672423}
   m_Layer: 0
   m_Name: PointC
   m_TagString: Untagged
@@ -1162,19 +1147,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1396672418}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1396672423
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1396672418}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97f9ed2ee92346e0ab5eaf6932e61a59, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextPoint: {x: 0, y: 0, z: 0}
 --- !u!1 &1430079084
 GameObject:
   m_ObjectHideFlags: 0
@@ -1262,7 +1234,6 @@ GameObject:
   - component: {fileID: 1537992933}
   - component: {fileID: 1537992932}
   - component: {fileID: 1537992931}
-  - component: {fileID: 1537992934}
   m_Layer: 0
   m_Name: PointB
   m_TagString: Untagged
@@ -1344,19 +1315,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1537992929}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1537992934
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1537992929}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34057942b82d4debaa78e7e117783001, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NextPoint: {x: 0, y: 0, z: 0}
 --- !u!1 &1739483007
 GameObject:
   m_ObjectHideFlags: 0

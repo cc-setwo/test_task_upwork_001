@@ -23,8 +23,16 @@ public class CubeController : MonoBehaviour
     {
         Time.timeScale = !isPaused ? 0.0f : 1.0f;
         isPaused = !isPaused;
-        pauseObj.SetActive(isPaused);
-        pauseText.text = !isPaused ? PAUSE_TEXT : UNPAUSE_TEXT;
+
+        if (pauseObj != null)
+        {
+            pauseObj.SetActive(isPaused);
+        }
+
+        if (pauseText != null)
+        {
+            pauseText.text = !isPaused ? PAUSE_TEXT : UNPAUSE_TEXT;
+        }
     }
 
     public void SpawnCubes()
@@ -71,6 +79,9 @@ public class CubeController : MonoBehaviour
 
     private void UpdateText()
     {
-        cubeText.text = string.Format(CUBE_AMOUNT_TEXT, cubesAmount);
+        if (cubeText != null)
+        {
+            cubeText.text = string.Format(CUBE_AMOUNT_TEXT, cubesAmount);
+        }
     }
 }
